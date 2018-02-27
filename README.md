@@ -10,3 +10,10 @@ Based on [this](https://en.wikipedia.org/wiki/Birthday_problem).
 * The people can be compared to see if any birthdays match
 * See the math behind all of this
 
+# The requirements:
+
+* OOP
+* Method to generate people
+* Method to generate birthdays
+* Method to compare birthdays
+* Method to show the math
