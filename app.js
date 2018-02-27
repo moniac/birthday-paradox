@@ -1,7 +1,17 @@
 (function() {
     const app = {
+        people: [],
         init() {
             helpers.getInput()
+        },
+
+        generate(numberOfPersons) {
+            let inc = 0
+            while (inc <= numberOfPersons) {
+                people.push(new person().generateDate())
+                inc++
+
+            }
         }
     }
 
