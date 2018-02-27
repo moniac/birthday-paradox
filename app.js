@@ -8,7 +8,7 @@
         generate(numberOfPersons) {
             let inc = 0
             while (inc <= numberOfPersons) {
-                people.push(new person().generateDate())
+                this.people.push(new person().generateDate())
                 inc++
 
             }
@@ -26,6 +26,7 @@
         getInput() {
             document.querySelector('body > input').addEventListener('keyup', function(e) {
                 console.log(e.target.value)
+                app.generate(e.target.value)
             })
         }
     }
